@@ -106,6 +106,7 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background-color: #222;
 }
 
 .wrapper {
@@ -115,6 +116,8 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-flow: row;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid white;
 }
 
 .div-1, .div-2, .div-3 {
@@ -126,15 +129,22 @@ we need to also add align-items: center;
 Your website should now look like the image below with the 3 divs beside each other, and the content nicely centered within each div:*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.1em;
   height: 300px;
   width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 400;
 }
-
+.div-1 {
+    border-right: 1px solid gray;
+    padding-right: 20px;
+}
+.div-2 {
+    border-right: 1px solid gray;
+    padding-right: 20px;
+}
 
 
 
